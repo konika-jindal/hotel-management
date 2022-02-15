@@ -72,7 +72,7 @@ $resu = mysqli_query($conn, $sql);
     ?>
         
     <div class="row">
-      <div class="col-sm-2"><a href="/LOGINSYSTEM/welcome.php"><button class="btn btn-dark btn-sm mx-4 mt-2">Back</button></a></div>
+      <div class="col-sm-2"><a href="/hotel-management/welcome.php"><button class="btn btn-dark btn-sm mx-4 mt-2">Back</button></a></div>
     <div class="col-sm-8"></div>
     <div class="col-sm-2"><a href="room_form.php?sn=0"><button class="btn btn-dark btn-sm mx-4 mt-2">Add new room</button></a></div>
 </div>

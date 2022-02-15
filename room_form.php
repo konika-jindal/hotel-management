@@ -131,7 +131,7 @@ else{
   }
   ?>
   <div class="container my-4 col-sm-8">
-  <a href="/LOGINSYSTEM/room.php"><button class="btn btn-dark btn-sm mb-2">Back</button></a>
+  <a href="/hotel-management/room.php"><button class="btn btn-dark btn-sm mb-2">Back</button></a>
   <form method="post" class="">
     <div class="form-row">
     <div class="form-group col-md-6">
@@ -158,11 +158,11 @@ else{
       <div class="form-group">
     <label for="category">Category</label>
     <select class="form-control" id="category" name="category">
-      <option>Deluxe(4500)</option>
-      <option>Single(1000)</option>
-      <option>Double(2000)</option>
-      <option>Queen(2500)</option>
-      <option>King(2500)</option>
+      <option>Deluxe</option>
+      <option>Single</option>
+      <option>Double</option>
+      <option>Queen</option>
+      <option>King</option>
     </select>
   </div> <?php } ?>
       <div class="form-group col-md-12">

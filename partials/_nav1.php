@@ -7,23 +7,23 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
     <?php if ($login) { ?>  <li class="nav-item active">
-      <a class="nav-link" href="/LOGINSYSTEM/welcome.php">Home <span class="sr-only">(current)</span></a></li>
+      <a class="nav-link" href="/hotel-management/welcome.php">Home <span class="sr-only">(current)</span></a></li>
       <li class="nav-item active">
-      <a class="nav-link" href="/LOGINSYSTEM/room.php">Room <span class="sr-only">(current)</span></a></li> 
+      <a class="nav-link" href="/hotel-management/room.php">Room <span class="sr-only">(current)</span></a></li> 
         <?php } ?>
         
         <?php if (!$login) { ?>
         <li class="nav-item">
-        <a class="nav-link" href="/LOGINSYSTEM/login.php">Login</a>
+        <a class="nav-link" href="/hotel-management/login.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/LOGINSYSTEM/signup.php">Signup</a>
+        <a class="nav-link" href="/hotel-management/signup.php">Signup</a>
       </li>
      <?php } ?>
 
      <?php if ($login){?>
       <li class="nav-item">
-        <a class="nav-link" href="/LOGINSYSTEM/logout.php">Logout</a>
+        <a class="nav-link" href="/hotel-management/logout.php">Logout</a>
       </li>
       <?php } ?>
       

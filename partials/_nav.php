@@ -10,10 +10,10 @@
         <a class="nav-link" href="/LOGINSYSTEM/welcome.php">Home <span class="sr-only">(current)</span></a></li> -->
         
       <li class="nav-item">
-        <a class="nav-link" href="/LOGINSYSTEM/login.php">Login</a>
+        <a class="nav-link" href="/hotel-management/login.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/LOGINSYSTEM/signup.php">Signup</a>
+        <a class="nav-link" href="/hotel-management/signup.php">Signup</a>
       </li>
       <!-- <li class="nav-item">
         <a class="nav-link" href="/LOGINSYSTEM/logout.php">Logout</a>

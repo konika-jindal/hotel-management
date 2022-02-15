@@ -160,7 +160,7 @@ $check= "checked";
     }
     ?>
     <div class="container my-4 col-sm-8">
-    <a href="/LOGINSYSTEM/welcome.php"><button class="btn btn-dark btn-sm mb-2">Back</button></a>
+    <a href="/hotel-management/welcome.php"><button class="btn btn-dark btn-sm mb-2">Back</button></a>
     <form method="post">
 
             
